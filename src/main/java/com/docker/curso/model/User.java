@@ -23,8 +23,7 @@ public class User {
 		
 	}
 	
-	public User(int id, String name, char sexo, String cel) {
-		this.id = id;
+	public User(String name, char sexo, String cel) {
 		this.name = name;
 		this.sexo = sexo;
 		this.cel = cel;
@@ -46,7 +45,7 @@ public class User {
 		this.sexo = sexo;
 	}
 
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
 
